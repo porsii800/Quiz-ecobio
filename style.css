@@ -23,17 +23,22 @@ p {
     margin-bottom: 50px; 
 }
 
-#perguntas{
+#Perguntas{
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 
 }
 
 #quiz-screen{
+
     
     width: 80%;
     max-width: 600px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #ffffff;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #4B6636;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     
@@ -82,33 +87,43 @@ p {
     background-color: #f1f1f1; 
 }
 
-
-.answer-button {
-    font-family: "Margarine";
-    padding: 15px 30px; 
+#botao-verdadeiro{
+    margin-right: 20%;
+    color: #775809;
+    font-family: "Skranji";
+    padding: 3px 3px; 
     font-size: 1.5em; 
-    color: #000000;
-   
-    border: none;
-    border-radius: 30px; 
-    cursor: pointer;
-    text-transform: uppercase; 
-    transition: background-color 0.3s; 
-    background-color: #388e3c; 
+    background-color: #C8B88E; 
+
 }
 
-.answer-button:hover {
-    background-color: #2c6b2f; 
+#botao-falso{
+
+    margin-left: 10%;
+    color: #775809;
+    font-family: "Skranji";
+    padding: 3px 22px; 
+    font-size: 1.5em; 
+    background-color: #C8B88E; 
+
 }
 
-#next-button {
+
+
+#botao-proximo {
+    padding: 10px 10px; 
+    font-size: 1.5em; 
     display: none;
-    background-color: #4caf50; 
+    background-color: #C8B88E; 
 }
 
-.next-button:hover {
-    background-color: #43a047; 
+#botao-proximo:hover {
+    background-color: #2c6b2f; 
+    transition: background-color 0.3s; 
+
 }
+    
+
 
 #feedback {
     margin: 15px 0;

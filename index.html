@@ -6,7 +6,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Margarine&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <title>Quiz de Ecologia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Margarine&family=Overpass:ital,wght@0,100..900;1,100..900&family=Skranji:wght@400;700&display=swap" rel="stylesheet">
+<title>Quiz de Ecologia</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -30,12 +33,12 @@
     <div id="quiz-screen" class="fundo" style="display: none;">
         <h1 id="Perguntas">Perguntas</h1>
         <div id="question"></div>
-        <button id="true-button" class="answer-button" onclick="checkAnswer(true)">Verdadeiro</button>
-        <button id="false-button" class="answer-button" onclick="checkAnswer(false)">Falso</button>
+        <button id="botao-verdadeiro" class="answer-button" onclick="checkAnswer(true)">Verdadeiro</button>
+        <button id="botao-falso" class="answer-button" onclick="checkAnswer(false)">Falso</button>
         <div id="feedback"></div>
-        <button id="next-button" onclick="nextQuestion()">Próxima</button>
+        <button id="botao-proximo" onclick="nextQuestion()">Próxima</button>
        
-        <button id="repeat-button" onclick="repeatQuiz()" style="display: none;">Repetir Quiz</button>
+        <button id="botao-repetir" onclick="repeatQuiz()" style="display: none;">Repetir Quiz</button>
 
     </div>
     <script src="script.js"></script>

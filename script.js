@@ -57,7 +57,7 @@ function displayQuestion() {
 
 function checkAnswer(userAnswer) {
     const feedbackElement = document.getElementById('feedback');
-    const nextButton = document.getElementById('next-button');
+    const nextButton = document.getElementById('botao-proximo');
     
     if (userAnswer === questions[currentQuestionIndex].answer) {
         feedbackElement.textContent = 'Correto!';
