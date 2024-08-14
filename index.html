@@ -10,9 +10,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
     <div id="container">
         
-        <button id="back-button" onclick="goBack()">
+        <button id="botao-voltar" onclick="goBack()">
             <i class="fas fa-arrow-left"></i>
         </button>
     <div id="start-screen" class="fundo">
@@ -20,5 +21,24 @@
         <p>Teste seus conhecimentos sobre ecologia e meio ambiente</p>
         <button id="botao-jogar" onclick="startQuiz()">Jogar</button>
     </div>
+
+
 </body>
+<body class="Perguntas">
+    
+
+    <div id="quiz-screen" class="fundo" style="display: none;">
+        <h1 id="Perguntas">Perguntas</h1>
+        <div id="question"></div>
+        <button id="true-button" class="answer-button" onclick="checkAnswer(true)">Verdadeiro</button>
+        <button id="false-button" class="answer-button" onclick="checkAnswer(false)">Falso</button>
+        <div id="feedback"></div>
+        <button id="next-button" onclick="nextQuestion()">Próxima</button>
+       
+        <button id="repeat-button" onclick="repeatQuiz()" style="display: none;">Repetir Quiz</button>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
 </html>
